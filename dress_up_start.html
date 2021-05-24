@@ -1,0 +1,90 @@
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="Author" content="Iyliss" />
+		<meta name="Keywords" content="Web,HTML5" />
+		<meta name="Description" content="Dress up" /> 
+		<title> Saiou Dress UP</title>
+		 <link rel="stylesheet" href="dress_up.css">
+	</head>
+
+	<body>
+	
+	<div class="info" id="infopop"> <!-- INFO POP-UP -->
+	<img id="close_info" src="images/assets/drag-close.png" onclick="close_info();">
+	<p class="text"> This is the test version of a dress up game. <br> You can get the sourcecode <a href="">here</a>, and a guide to on how to use it  <a href="https://docs.google.com/document/d/1yYRESFkNb-0mSa8KmuDqsiwNXPohoeJmiWSKZ1_vAGo">here.</a><br> art: <a href="https://twitter.com/Althan_Art">AlthanArt</a><br> development: <a href="https://twitter.com/Iylisss">Iyliss</a></p>
+	<p></p>
+	</div>
+	
+	
+	<!-- BUTTONS -->
+	<div id="buttons"> 
+	<div id="remove_buttons">
+	<img class="removebut" src='images/assets/no-top.png' onclick="remove('top');" width=100%>
+	<img class="removebut" src='images/assets/no-bottom.png' onclick="remove('bottom');" width=100%>
+	<img class="removebut" src='images/assets/no-onepiece.png' onclick="remove('onepiece');" width=100%>
+	<img class="removebut" src='images/assets/no-earrings.png' onclick="remove('earrings');" width=100%>
+	<img class="removebut" src='images/assets/no-jacket.png' onclick="remove('jacket');" width=100%>
+	<img class="removebut" src='images/assets/no-shoes.png' onclick="remove('shoes');" width=100%>
+	<img class="removebut" src='images/assets/no-socks.png' onclick="remove('socks');" width=100%>
+	<img class="removebut" src='images/assets/no-drag.png' onclick="remove_drag();" width=100%>
+	<img class="removebut" src='images/assets/no-hair.png' onclick="hair_switch();" width=100%>
+	<img class="removebut" src='images/assets/no-reset.png' onclick="remove_all();" width=100%>
+	<img class="removebut" src='images/assets/asset-info.png' onclick="display_info();" width=100%>
+
+	</div>
+	
+	
+	
+	<!-- MOVEABLE ITEMS BUTTONS -->
+	<div id="move_buttons">  
+
+	</div></div>
+	
+	
+	
+	<!-- DOLL -->
+	<div id="doll">	
+	
+	<img src='images/elements/face001.png' id="face" name="face001" class="element"> 
+	<img src='images/elements/hairw0hat.png' id="nohat" class="element"> 
+	<img src='images/elements/bottom001.png' id="bottom" name="bottom001" class="element"> 
+	<img  id="hair" src='images/elements/hair001.png' name="hair001" class="element"> 
+	<img src='images/elements/base_v2.png' class="base"> 
+		
+	</div>
+	
+	<!-- CATALOGUE -->
+	<div id="catalogue">
+	
+	<div id="catalogue_button">
+	<img class="catbut" src='images/assets/cat-hair.png' onclick="display_catalogue('hair');">
+	<img class="catbut" src='images/assets/cat-top.png' onclick="display_catalogue('top');">
+	<img class="catbut" src='images/assets/cat-bottom.png' onclick="display_catalogue('bottom');">
+	<img class="catbut" src='images/assets/cat-onepiece.png' onclick="display_catalogue('onepiece');">
+	<img class="catbut" src='images/assets/cat-socks.png' onclick="display_catalogue('socks');">
+	<img class="catbut" src='images/assets/cat-shoes.png' onclick="display_catalogue('shoes');">
+	<img class="catbut" src='images/assets/cat-jacket.png' onclick="display_catalogue('jacket');">
+	<img class="catbut" src='images/assets/cat-face1.png' onclick="display_catalogue('face');">
+	<img class="catbut" src='images/assets/cat-earrings.png' onclick="display_catalogue('earrings');">
+	<img class="catbut" src='images/assets/cat-accessories.png' onclick="display_catalogue('accessories');">
+	<img class="catbut" src='images/assets/cat-drag.png' onclick="display_catalogue('drag');">
+	
+	</div>
+	
+	<div id="elements">
+	
+
+	</div></div>
+	
+	
+	
+
+		<script type="text/javascript" src="dress_up.js"> 
+		</script> 
+		
+	</body>
+
+
+</html>

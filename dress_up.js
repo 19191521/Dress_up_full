@@ -146,7 +146,7 @@
 				var imgdiv = document.getElementById(part); 
 				var outfit = document.getElementById('doll');	
 				if(dblsup==1){
-					var to_add = '<div id="'+part+'"><img class="bg_element" name="'+name+'a" src="images/elements/'+name+'a.png"><img class="element" name="'+name+'b" src="images/elements/'+name+'b.png"></div>'
+					var to_add = '<div id="'+part+'" name="'+name+'"><img class="bg_element" name="'+name+'b" src="images/elements/'+name+'b.png"><img class="element" name="'+name+'a" src="images/elements/'+name+'a.png"></div>'
 				} else{
 					var to_add = '<img class="element" name="'+name+'" id="'+part+'" src="images/elements/'+name+'.png">';
 				}
@@ -154,6 +154,7 @@
 
 				
 				if (imgdiv) {
+				
 					
 					
 					
@@ -161,16 +162,19 @@
 					
 					var past_part = imgdiv.outerHTML;
 					
+					
 					imgdiv.remove();
 					
 					if(past_part !== to_add ){
 						
+						outfit.innerHTML =  outfit.innerHTML+to_add ;
+						
 						var selecname = imgdiv.getAttribute("name");
-						var selecdiv = document.getElementById(selecname);  
+						var selecdiv = document.getElementById(selecname); 
 						selecdiv.className="displayed";
 						document.getElementById(name).className="selec_displayed"; 
 						
-						outfit.innerHTML =  outfit.innerHTML+to_add ;	
+							
 					} else
 					{
 						if(part=="bottom"){

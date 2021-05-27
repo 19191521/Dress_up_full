@@ -1,0 +1,160 @@
+body {
+  background-color: rgba(219, 209, 249, 1);
+}
+#doll{
+	height:90%;
+	width:50%;
+	display: inline-block;
+	vertical-align: middle;
+	overflow:s-resize;
+	position:relative;
+}
+#catalogue{
+	height:90%;
+	width: 45%;
+	display: inline-block;
+	
+	vertical-align: top;
+}
+
+#elements{
+	height:92%;
+	overflow:scroll;
+	background-image: linear-gradient(rgba(224,213,255, 1), rgba(122,101,178, 1));
+	border-radius:25px;
+	scrollbar-color: rgba(144, 81, 188, 1) rgba(233, 215, 242, 1);
+}
+
+#catalogue_button{
+	background-color: rgba(181,160,237,1);
+	border-radius:25px;
+	height:8%;
+
+}
+#buttons {
+	padding-bottom:2%;
+}
+#remove_buttons{
+	width: 40%;
+	display: inline-block;
+	
+}
+#move_buttons{
+	width: 40%;
+	display: inline-block;
+	visibility:hidden;
+	
+}
+ #close_info{
+	 width:10%;
+	 position:top-left;
+ }
+
+
+.catbut{
+	height:80%;
+}
+
+.removebut {
+	height:5%;
+	width:auto;
+}
+
+
+.base{
+	position:absolute;
+	max-height:100%;
+  z-index:3;
+}
+.displayed{
+width:30%;
+height:30%;
+border-radius:25px;
+	
+}
+.selec_displayed{
+width:30%;
+height:30%;
+border-radius:25px;
+background-color: rgba(220, 209, 252, 1);
+	
+}
+
+.info {
+	position: absolute;
+	width: 25%;
+	left: 25%;
+	top: 25%;
+	z-index:5;
+	background-image: linear-gradient(rgba(216, 185, 232, 1), rgba(147, 85, 189, 1));
+	border : solid;
+	border-color: rgba(147, 85, 189, 1);
+	visibility: hidden;
+	border-radius:25px;
+	padding:10px;
+	
+}
+p {
+	font: 1.2em "Verdana", sans-serif;
+	color :white;
+}
+
+
+
+
+.element {
+	 position:absolute;
+    top:0%;
+    left:0%;
+	max-height:100%;
+    z-index:4;
+	width:auto;
+}
+.hair {
+	 position:absolute;
+    top:0%;
+    left:0%;
+	max-height:100%;
+    z-index:0;
+	width:auto;
+}
+#what {
+	 position:absolute;
+   
+	max-height:100%;
+    z-index:1;
+}
+#nohat {
+	 position:absolute;
+   
+	max-height:100%;
+    z-index:1;
+}
+.drag1 {
+	 position:absolute;
+    top:0%;
+    left:0%;
+	max-height:100%;
+    z-index:4;
+	width:auto;
+}
+.drag2 {
+	 position:absolute;
+    top:0%;
+    left:0%;
+	max-height:100%;
+    z-index:5;
+	width:auto;
+}
+
+
+.bg_element{
+	 position:absolute;
+    top:0%;
+    left:0%;
+	max-height:100%;
+    z-index:2;
+	width:auto;
+}
+
+

@@ -2,7 +2,7 @@
 This is a simple Dress Up Game that allow to show selected clothes onto a model, put moveable items, have elements be on different layers and other simple functionalities. 
 This is the full version of the game, including functionalities that aren't explained. 
 
-If you aren't familiar with Javascript, HTML and CSS (only base knowledge is required), check the simplified code here:  and the tutorial explaining it here: https://docs.google.com/document/d/1yYRESFkNb-0mSa8KmuDqsiwNXPohoeJmiWSKZ1_vAGo
+If you aren't familiar with Javascript, HTML and CSS (only base knowledge is required), check the simplified code here:  https://github.com/19191521/dress_up_simplified and the tutorial explaining it here: https://docs.google.com/document/d/1yYRESFkNb-0mSa8KmuDqsiwNXPohoeJmiWSKZ1_vAGo
 
 
 This game is completely free to re-use, modify and copy as long as it is for non-commercial purposes. 
